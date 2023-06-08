@@ -1,0 +1,458 @@
+#navbaradmin {
+    position: absolute;
+    background: rgb(209,164,242);
+    background: linear-gradient(90deg, rgba(209,164,242,1) 0%, rgba(217,181,244,1) 45%, rgba(209,164,242,1) 100%); 
+    width: 20%;
+    border: 1px solid black !important;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 60px;
+    -webkit-text-stroke: 1px rgb(128, 82, 161) !important;
+
+}
+#paneladministrador{
+  height: 500px !important;
+}
+
+/**SHOW**/
+#titulogameshow {
+    text-align: center !important;
+}
+
+
+#imagenjuegoshow {
+  
+    left: 35%;
+    position: relative;
+    width: 30vh;
+    height: 30vh;
+ 
+}
+
+#contenedorVotaciones{
+    position: absolute;
+    top: 200px;
+    border-radius: 15px 15px 15px 15px !important;
+}
+#userimagenregistro{
+    width: 100px !important;
+    margin-left: 50%;
+    margin-bottom: 20px !important;
+   
+}
+
+#formulariocrearvideojuegos,#contenedorGames{
+    background-color: bisque !important;
+}
+#loginlogo{
+    margin-left: 14%  !important;
+}
+#cardlogin{
+    border-radius: 20% 20% 20% 20% !important;
+}
+.navbar{
+    color: white !important;
+}
+
+#listavideojuegosh1{
+    width: 400px;
+    border-radius: 10% 10% 10% 10% !important;
+    background: rgb(19,111,198);
+    background: radial-gradient(circle, rgba(19,111,198,1) 0%, rgba(36,136,231,1) 46%, rgba(10,103,191,1) 100%);
+    -webkit-text-stroke: 1px white !important;
+   
+}
+
+
+#contprincipalperfil{
+    display: flex !important;
+    flex-flow: row wrap !important;
+}
+#datosperfil{
+    width: 700px ;
+   
+    position: relative;
+    margin-left: 300px;
+margin-top: 30px;
+height: 600px;
+box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+#imagenperfil{
+    width: 300px;
+    position: absolute;
+margin-top: 10%;
+
+}
+
+.imagencomentario{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 50% 50%  !important;
+    z-index: 999 !important;
+}
+#votacionedit,#tablaeditusuarios,#tablashowvotacion{
+    background-color: white;
+}
+
+.form-group{
+    background-color: white !important;
+}
+
+.contenedorIndividual{
+    width: 120%;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid black;
+    min-height: 200px !important;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.imagenResenya{
+    width: 40%;
+   position: relative;
+}
+.contenidoResenya{
+    width: 100%;
+    position: relative;
+   padding: 2px;
+}
+
+.contenidoeimagen{
+    display: flex;
+    flex-flow: row;
+
+}
+
+
+.contenidoResenya p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    overflow-wrap:break-word !important;
+}
+
+/*  ********************LOGIN************************************                         */
+#passwordlogin,#email{
+ border-radius: 20px 20px 20px 20px;
+}
+
+
+/**********GENERICOS***************************************************/
+.tituloprincipal{
+    -webkit-text-stroke: 1px white !important;
+}
+/**********TABLA VOTACIONES****************************************/
+#tablavotaciones{
+background-color: #FFF2CE;
+}
+
+@font-face{
+    font-family: 'Cincel regular';
+    src: url('fuentes/Cincel-Regular.ttf');
+}
+.tituloresenyas{
+font-family: 'Cincel-Regular';
+text-decoration: underline;
+font-size: 24px;
+}
+
+.contenedorGameIndividual{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 20px 20px 20px 20px;
+    height: 92px;
+    border: 1px solid rgb(235, 235, 235);
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+
+.contenedorGameIndividualNombre{
+width: 20%;
+padding: 30px !important;
+}
+.contenedorGameIndividualAnyoLanzamiento{
+width: 15%;
+padding: 30px !important;
+}
+.contenedorGameIndividualGeneros{
+    width: 30%;
+   
+    height: 92px;
+    
+}
+.contenedorGameIndividualGeneros p{
+    text-overflow: ellipsis ;
+}
+.contenedorGameIndividualImagen{
+    width: 35%;
+    padding-left: 10px;
+    height: 100%;
+}
+.contenedorGameIndividualImagen img{
+   
+    padding-left: 0 !important;
+
+}
+form{
+    display: inline;
+}
+
+#footer{
+    position: relative !important;
+    width: 100% !important;
+    bottom: 0 !important;
+}
+
+#contenedorGames{
+    display: none !important;
+}
+
+#contenedorGamesColeccion{
+    background-color: bisque !important;
+}
+.textoajustado{
+    width:100% !important;
+    overflow-wrap:break-word !important;
+}
+
+.elipsis{
+    text-overflow: ellipsis;
+}
+
+/**************ENTRADAS***************/
+.slide-in-fwd-center {
+	-webkit-animation: slide-in-fwd-center 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-center 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ @-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+      display: block;
+    }
+  }
+  
+  .slide-out-bck-center {
+	-webkit-animation: slide-out-bck-center 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: slide-out-bck-center 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+ @-webkit-keyframes slide-out-bck-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(-1100px);
+              transform: translateZ(-1100px);
+      opacity: 0;
+    }
+  }
+  @keyframes slide-out-bck-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateZ(-1100px);
+              transform: translateZ(-1100px);
+      opacity: 0;
+    }
+  }
+  
+  .contenedorcomentarios{
+    background-color: rgb(207, 207, 207); border-radius: 10px 10px 10px 10px !important; border:2px solid rgb(241, 234, 234)
+  }
+
+  /********LOGIN*****************************/
+  #fondo2index{
+   
+    
+    background-image: url("../imagenes/imagenfondo2.jpg") !important;
+        /* Ajusta el tamaño y posición de la imagen de fondo según tus necesidades */
+    border-radius: 5% 5% 5% 5% !important;
+        background-position: center;;
+  }
+.cardregister{
+  background-color: white ;
+  box-shadow: rgba(0, 0, 0, 0.1) 3px 4px 15px;
+
+}
+  .bordesredondeados{
+    border-radius: 20px 20px 20px 20px !important;
+  }
+  #color-change-5x {
+	-webkit-animation: color-change-5x 14s linear infinite alternate both;
+	        animation: color-change-5x 14s linear infinite alternate both;
+}
+
+
+ @-webkit-keyframes color-change-5x {
+
+    0% {
+        background: #19dcea;
+      }
+      25% {
+        background: #189da7;
+      }
+      50% {
+        background: #348bfd;
+      }
+      75% {
+        background: #0b72f8;
+      }
+      100% {
+        background: #0e8ed8;
+      }
+    }
+    @keyframes color-change-5x {
+      0% {
+        background: #19dcea;
+      }
+      25% {
+        background: #189da7;
+      }
+      50% {
+        background: #348bfd;
+      }
+      75% {
+        background: #0b72f8;
+      }
+      100% {
+        background: #0e8ed8;
+      }
+  }
+  
+  #tracking-in-contract {
+font-size: 35px;
+
+
+    -webkit-animation: tracking-in-contract 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract 1.4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+
+ @-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+
+
+
+
+  #botonlogin:hover{
+    background-color: yellow !important;
+  
+
+}
+  .botonloginregister:hover{
+        -webkit-animation: wobble-hor-bottom 0.8s both;
+                animation: wobble-hor-bottom 0.8s both;
+    
+  }
+
+@-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  
